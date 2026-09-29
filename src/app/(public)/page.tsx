@@ -1,9 +1,9 @@
 import CourseDiscovery from "@/components/sections/CourseDiscovery";
-import CourseManagement from "@/components/sections/CourseManagement";
+import CreatorCTA from "@/components/sections/CreatorCTA";
 import GrowthAndManagement from "@/components/sections/GrowthAndManagement";
 import Hero from "@/components/sections/Hero";
 import LearningPaths from "@/components/sections/LearningPaths";
-import ProfessionalGrowth from "@/components/sections/ProfessionalGrowth";
+import Testimonials from "@/components/sections/Testimonials";
 import TrustedCompanies from "@/components/sections/TrustedCompanies";
 
 
@@ -16,6 +16,8 @@ const HomePage = () => {
      <CourseDiscovery/>
      <LearningPaths/>
      <GrowthAndManagement/>
+     <CreatorCTA/>
+     <Testimonials/>
     </div>
   );
 };
