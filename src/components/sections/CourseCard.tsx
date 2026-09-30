@@ -1,10 +1,6 @@
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
-import {
-  MdOutlinePlayCircleFilled,
-  MdOutlineAccessTime,
-  MdOutlineChatBubbleOutline,
-} from "react-icons/md";
+
 import { FiBarChart2 } from "react-icons/fi";
 
 export interface CourseData {
@@ -36,19 +32,15 @@ export default function CourseCard({ course }: CourseCardProps) {
           className="object-cover"
         />
 
-        {/* ৩টি আলাদা বাটন স্টাইল ব্যাজের কন্টেইনার (কোনো বড় ব্যাকগ্রাউন্ড ছাড়া) */}
         <div className="absolute bottom-3 left-0 w-full px-3 flex items-center justify-between gap-1.5">
-          {/* ১ম ব্যাজ: Lessons */}
           <div className="flex-1 bg-[#F6F6F6]/60 backdrop-blur-md rounded-full py-2 px-1 text-center text-[10px] sm:text-[11px]  text-gray-700 shadow-sm border border-white/10">
             {course.lessons} Lessons
           </div>
 
-          {/* ২য় ব্যাজ: Duration */}
           <div className="flex-1 bg-[#F6F6F6]/60 backdrop-blur-md rounded-full py-2 px-1 text-center text-[10px] sm:text-[11px] text-gray-700 shadow-sm border border-white/10">
             {course.duration}
           </div>
 
-          {/* ৩য় ব্যাজ: Comments */}
           <div className="flex-1 bg-[#F6F6F6]/60 backdrop-blur-md rounded-full  py-2 px-1 text-center text-[10px] sm:text-[11px] text-gray-700 shadow-sm border border-white/10">
             {course.comments} Comments
           </div>
@@ -88,7 +80,6 @@ export default function CourseCard({ course }: CourseCardProps) {
         </div>
       </div>
 
-      {/* ৪. প্রাইস ট্যাক্স */}
       <div className="mt-4 pt-1">
         <span className="text-xl font-black text-blue">${course.price}</span>
         <span className="text-xs font-medium text-gray-400">/lifetime</span>

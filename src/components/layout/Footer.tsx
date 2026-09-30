@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/suspicious/noArrayIndexKey: <explanation> */
 import React from "react";
 import Link from "next/link";
 import Logo from "../ui/Logo";
@@ -115,7 +116,7 @@ export default function Footer() {
             >
               Terms of Service
             </Link>
-            <button className="hover:text-blue transition-colors duration-200 cursor-pointer">
+            <button type="button" className="hover:text-blue transition-colors duration-200 cursor-pointer">
               Cookies Settings
             </button>
           </div>
