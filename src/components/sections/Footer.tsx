@@ -49,7 +49,7 @@ export default function Footer() {
                 />
               </div>
 
-              <Button variant="primary">Search</Button>
+              <Button variant="primary">Subscribe</Button>
             </div>
 
             <p className="mt-6 text-[11px] leading-[1.6] text-[#8C8C8C] max-w-[360px]">

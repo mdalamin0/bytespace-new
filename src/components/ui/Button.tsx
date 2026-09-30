@@ -21,7 +21,7 @@ export default function Button({
 
   return (
     <button
-      className={`inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 shrink-0 px-5 py-3 text-xs sm:px-10 sm:py-4 sm:text-sm cursor-pointer ${variants[variant]} ${className}`.trim()}
+      className={`inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-semibold transition-all focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 shrink-0 px-5 py-3 text-xs sm:px-8 sm:text-sm cursor-pointer ${variants[variant]} ${className}`.trim()}
       {...props}
     >
       {children}
