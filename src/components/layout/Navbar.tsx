@@ -51,13 +51,14 @@ const Navbar = () => {
           </Link>
 
           {/* Cart Icon */}
-          <button className="relative flex items-center justify-center text-white text-xl transition hover:text-white/80">
+          <button type="button" className="relative flex items-center justify-center text-white text-xl transition hover:text-white/80">
             <FiShoppingBag />
           </button>
         </div>
 
         {/* Mobile Menu Button */}
         <button
+        type="button"
           className="flex items-center justify-center text-white text-2xl md:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >

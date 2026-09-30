@@ -130,6 +130,7 @@ const coursesData: CourseData[] = [
             const isActive = activeCategory === category;
             return (
               <button
+              type="button"
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide border cursor-pointer transition-all duration-200 ${
@@ -143,7 +144,7 @@ const coursesData: CourseData[] = [
             );
           })}
 
-          <button className="px-4 py-2 rounded-full text-xs font-bold text-blue hover:underline cursor-pointer">
+          <button type="button" className="px-4 py-2 rounded-full text-xs font-bold text-blue hover:underline cursor-pointer">
             + More
           </button>
         </div>
