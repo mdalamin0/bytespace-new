@@ -1,8 +1,9 @@
 # ByteSpace - Modern E-Learning Platform (Job Task)
 
-### Live Link: 
+### Live Link: https://bytespace-new-zeta.vercel.app
+### Github: https://github.com/mdalamin0/bytespace-new
 
-A highly responsive, pixel-perfect e-learning landing page and authentication module built with **Next.js 14+ (App Router)** and **Tailwind CSS v4**. This project is crafted following industry-standard best practices, robust component encapsulation, and strict accessibility rules.
+A highly responsive, pixel-perfect e-learning landing page and authentication module built with **Next.js  (App Router)** and **Tailwind CSS**. This project is crafted following industry-standard best practices, robust component encapsulation, and strict accessibility rules.
 
 ---
 
