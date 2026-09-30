@@ -10,7 +10,7 @@ export default function RegisterForm() {
         Create an Account
       </span>
 
-      <h2 className="text-3xl font-bold text-[#171717] mt-2 mb-10 tracking-tight">
+      <h2 className="text-4xl font-semibold text-[#171717] mt-2 mb-10 tracking-tight">
         Welcome to <br /> ByteSpace
       </h2>
 
